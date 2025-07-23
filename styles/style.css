@@ -27,14 +27,14 @@ nav{
 display: flex;
 justify-content: space-between;
 margin-bottom: 120px;
- background-color: brown;
+
 }
 
 .nav-logo{
 
 height: 82px;
 width: 135px;
-background-color: aquamarine;
+
 
 
 }
@@ -49,7 +49,7 @@ margin-left: 48px;
 
 .banner{
 
-     background-color: rgb(28, 190, 128);
+     
      display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
@@ -58,7 +58,7 @@ margin-left: 48px;
 .banner-content{
 
    width: 50%; 
-   background-color: blue;
+   
 }
 
 .banner-title{
@@ -85,7 +85,7 @@ color: rgb(0,0,0);
 
 .plants{
 
-    background-color: grey;
+   
     margin-bottom: 211px;
 }
 .plants-content{
@@ -110,7 +110,7 @@ margin-bottom: 16px;
 }
 
 .plants-cards{
-    background-color: aquamarine;
+   
 display: grid;
 grid-template-columns: repeat(4,1fr);
 
@@ -121,10 +121,10 @@ row-gap: 20px;
 
 .plants-card{
 
-    background-color: azure;
+  
    
     margin-left: 0px;
-    border: 3px solid black;
+   
     
 }
 .plants-img{
@@ -160,8 +160,12 @@ margin-bottom: 20px;
     width: 100%;
     height: 50px;
     text-align: center;
-    display: flex;
+    
     justify-content: center;
+    padding: 19px 80px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
 }
 
 /*Plants Lover Section Styles*/
@@ -169,7 +173,7 @@ margin-bottom: 20px;
 
     display: flex;
     width: 100%;
-    background-color: bisque;
+  
     column-gap: 20px;
     margin-bottom: 133px ;
 }
@@ -223,9 +227,10 @@ margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/news-letter-bg.png');
+    background-size:cover ;
     height: 533px;
-    width:1440px;
     background-repeat: none;
+    
 }
 
 .join-title{
@@ -260,4 +265,56 @@ background-color:rgb(233, 90, 8) ;
  padding: 19px 53.5px 19px 53.5px;
  color:rgb(255, 255, 255);
 
+}
+
+/*footer styles*/
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer-content{
+
+
+    padding: 50px 110px 70px 160px;
+}
+
+.footer-logo{
+
+   height: 82px;
+   width: 135px; 
+}
+.footer-description{
+
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.fotter-bars{
+
+
+    display: flex;
+    column-gap: 110px;
+    padding: 50px 110px 50px 0px;
+}
+.fotter-bar{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.fotter-bar a{
+    text-decoration: none;
+}
+.footer-icons{
+
+    padding: 50px 160px 262px 0px;
+}
+
+.icon{
+
+    margin-left: 24px;
 }
