@@ -5,6 +5,18 @@
     margin: 0px;
 
 }
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  
+}
+
+
+.noto-serif-normal{
+  font-family: "Noto Serif", serif;
+  
+}
 /*shared styles*/
 .continer{
     max-width: 1140px;
@@ -129,7 +141,7 @@ row-gap: 20px;
 }
 .plants-img{
 
-    height: 322px;
+    height: 323px;
     width: 270px;
     margin-bottom: 30px;
 }
@@ -157,7 +169,7 @@ margin-bottom: 20px;
 
     
     background-color: rgb(233, 90, 8);
-    width: 100%;
+    width: 270px;
     height: 50px;
     text-align: center;
     
@@ -234,6 +246,7 @@ margin-bottom: 20px;
 }
 
 .join-title{
+    text-align: center;
  font-weight: 700;
  font-size: 3.1rem;   
    margin-bottom: 23px;
@@ -326,6 +339,13 @@ footer{
 
     margin-bottom: 120px;
     text-align: center;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .deals-title{
 
@@ -425,4 +445,215 @@ margin-bottom: 120px;
     font-size: 1.8rem;
     font-weight: 400;
     color: #FFFFFF;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    .continer{
+    max-width: 576px;
+    margin:0px;
+}
+
+    /*banner styles*/
+
+
+.banner{
+
+     
+   flex-direction: column-reverse;
+    
+}
+.banner-content{
+
+   width: 90%; 
+
+}
+
+
+/*Plants Section Styles*/
+
+.plants{
+
+   
+    margin-bottom: 211px;
+}
+.plants-content{
+
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+
+
+
+.plants-cards{
+   
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+
+column-gap: 10px;
+row-gap: 20px;
+}
+
+
+/*Plants Lover Section Styles*/
+.lover{
+
+    flex-direction: column;
+   
+  
+    
+    margin-bottom: 133px ;
+}
+
+.flower-logo{
+
+
+    width: 100%;
+    background-image: url('../assets/flower-store.png');
+    height:597px ;
+    
+}
+.logo{
+
+    display: none;
+
+    
+}
+
+/* Deals Section*/
+
+
+.deals-img{
+
+    flex-direction: column;
+}
+
+
+.deals-img-continer{
+
+    flex-direction: column;
+    height: 581px;
+    width: 100%;
+   padding-left: 70px;
+   text-align: center;
+   
+
+    
+}
+
+
+.deals-img-big{
+
+    background-size: cover;
+}
+.deals-img{
+
+    width: 100%;
+    
+   
+  
+}
+
+
+.deals-img-1{
+
+   
+    height:184px;
+    width:361px;
+    
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+
+.deals-img-2{
+
+   
+    height:184px;
+    width:361px;
+    
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.deals-img-big{
+
+   
+    height:184px;
+    width:361px;
+    
+    border-radius: 0px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+/* Join Section Styles*/
+
+
+
+
+
+form{
+
+    display: flex;
+    
+}
+
+form input{
+
+    height: 50px;
+    width: 218px;
+    padding: 15px 114px 15px 20px;
+  
+   
+}
+    
+.bt{
+
+height: 50px;
+width: 103px;
+
+ padding: 19px 12px;
+ 
+
+}
+
+/*footer styles*/
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top:50px ;
+   
+}
+.footer-content{
+
+
+    padding: 0px;
+}
+
+
+.footer-icons{
+
+    padding:10px;
+}
+
+.fotter-bars{
+
+    row-gap: 25px;
+    flex-direction: column;
+}
+
+.nav-content a:nth-child(-n+3) {
+
+display: none;
+}
+
 }
