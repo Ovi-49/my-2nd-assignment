@@ -553,6 +553,14 @@ margin: 5%;
 
 /*Plants Section Styles*/
 
+.plants-description{
+
+ 
+    padding: 28px;
+   
+}
+
+
 .plants{
   margin-top: 120px;
     max-width: 90%;
@@ -629,7 +637,7 @@ padding: 39px 0px 39px 30px ;
 .flower-logo{
 
 
-   background-color: aqua;
+ 
     background-image: url('../assets/flower-store.png');
   background-repeat: no-repeat;
   height: 100%;
