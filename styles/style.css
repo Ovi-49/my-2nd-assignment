@@ -118,7 +118,11 @@ color: rgb(0,0,0);
 .plants-content{
 
     text-align: center;
-    margin-bottom: 49px;
+    
+    margin: 0px;
+padding: 0px;
+margin-bottom: 49px;
+
 }
 .plants-title{
 
@@ -559,7 +563,7 @@ width: 63px;
 .plants-img{
 
     height: 171px;
-    width: 196px;
+    width: 185px;
 }
 .plants-content{
 
@@ -574,7 +578,9 @@ width: 63px;
    
 display: grid;
 grid-template-columns: repeat(2,1fr);
-max-width: 362px;
+max-width: 350px;
+margin: 0;
+padding: 0px;
 
 
 
@@ -596,7 +602,7 @@ margin-top: 120px;
 .flower-logo{
 
 
-    width:100%;
+    width:80%;
     background-image: url('../assets/flower-store.png');
     height:597px ;
     background-repeat: no-repeat;
