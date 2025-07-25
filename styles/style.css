@@ -24,7 +24,7 @@
 .continer{
     max-width: 1140px;
     margin:auto;
-    background-color: #FFFFFF;
+   
 }
 
 
@@ -488,9 +488,10 @@ position: relative;
     
     .continer{
     max-width: 768px;
-    margin:0px;
+    margin: auto;
+    
+   
 }
-
 
 /* nav styles*/
 
@@ -537,6 +538,7 @@ width: 63px;
 
    margin: 0px;
    padding: 0px;
+   gap: 0px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -578,14 +580,15 @@ width: 63px;
    
 display: grid;
 grid-template-columns: repeat(2,1fr);
-max-width: 350px;
+max-width: 340px;
 margin: 0;
 padding: 0px;
 
-
-
-
 }
+
+
+
+
 
 
 
@@ -598,14 +601,18 @@ margin-top: 120px;
     
     margin-bottom: 133px ;
 }
+.lover-content{
+
+padding: 39px 0px 39px 30px ;
+}
 
 .flower-logo{
 
 
-    width:80%;
+    background-size: cover;
     background-image: url('../assets/flower-store.png');
-    height:597px ;
-    background-repeat: no-repeat;
+  
+    
     
 }
 .logo{
