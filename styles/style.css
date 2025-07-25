@@ -609,9 +609,9 @@ padding: 39px 0px 39px 30px ;
 .flower-logo{
 
 
-    background-size: cover;
+   background-size: 80%;
     background-image: url('../assets/flower-store.png');
-  
+  background-repeat: no-repeat;
     
     
 }
