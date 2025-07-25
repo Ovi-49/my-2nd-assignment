@@ -532,6 +532,7 @@ width: 63px;
 
    
     margin-bottom: 211px;
+    max-width: 80%;
 }
 .plants-content{
 
@@ -546,7 +547,7 @@ width: 63px;
    
 display: grid;
 grid-template-columns: repeat(2,1fr);
-max-width: 75%;
+max-width: 100%;
 place-items: center;
 
 }
